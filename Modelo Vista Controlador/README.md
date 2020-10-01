@@ -91,7 +91,7 @@ gráficas, inicialmente para el sistema X Window)
 #####
 :open_file_folder:  - controlador/personas_controller.php
 
-
+##
 
 #### Frameworks
 
@@ -108,7 +108,7 @@ gráficas, inicialmente para el sistema X Window)
 - [Django](https://www.djangoproject.com/).
 - [Interface Java Objects](https://docs.oracle.com/javase/8/docs/technotes/guides/collections/overview.html).
 
-
+# Conclusiones
 
 
 
