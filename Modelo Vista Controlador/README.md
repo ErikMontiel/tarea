@@ -86,10 +86,10 @@ gráficas, inicialmente para el sistema X Window)
 
 
 
-```
+
 :open_file_folder:
 
-```
+
 
 
 #### Frameworks
