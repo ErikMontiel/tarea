@@ -85,9 +85,9 @@ gráficas, inicialmente para el sistema X Window)
 #### Organización de los archivos
 
 
-:open_file_folder:  modelo/personas_model.php
-:open_file_folder:  vista/personas_view.phtml
-:open_file_folder:  controlador/personas_controller.php
+:open_file_folder:  - modelo/personas_model.php
+:open_file_folder:  - vista/personas_view.phtml
+:open_file_folder:  - controlador/personas_controller.php
 
 
 
