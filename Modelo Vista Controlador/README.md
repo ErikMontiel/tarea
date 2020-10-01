@@ -86,9 +86,9 @@ gráficas, inicialmente para el sistema X Window)
 
 
 :open_file_folder:  - modelo/personas_model.php
-#
+###
 :open_file_folder:  - vista/personas_view.html
-#
+###
 :open_file_folder:  - controlador/personas_controller.php
 
 
