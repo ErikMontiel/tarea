@@ -7,11 +7,10 @@ Existen múltiples procesos o estándares que permiten asegurar la calidad de un
 
 Una de las soluciones para mejorar el proceso de desarrollo ha sido la arquitectura basada en “capas” que separan el código de un programa en función de sus responsabilidades. 
 Por lo que se vio a la necesidad de aplicar una arquitectura útil como es el Modelo Vista-Controlador (MVC), que requiere de la separación del código de un programa en capas atendiendo a sus responsabilidades.
-##
 
-#### MVC y  su relación con los patrones de diseño de software
 
-##
+### MVC y  su relación con los patrones de diseño de software
+
 
 ##### Modelo: 
 - Representa los datos que el usuario está esperando ver, pero no contiene ninguna lógica que describa cómo presentar los datos a un usuario.
