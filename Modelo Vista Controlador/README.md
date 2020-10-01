@@ -19,7 +19,7 @@ Por lo que se vio a la necesidad de aplicar una arquitectura útil como es el Mo
 ##### Vista: 
 - Se encarga de transformar el modelo para que sea visualizada por el usuario, ya sea un archivo de texto normal o en una página Web que el navegador pueda desplegar. El propósito de la Vista es convertir los datos para que el usuario le sean significativos y los pueda interpretar fácilmente.
 
-##### Controlador
+##### Controlador:
 - Es la parte lógica que es responsable de procesamiento y comportamiento de acuerdo a las peticiones (request) del usuario construyendo un modelo apropiado, y pasándolo a la vista para su correcta visualización.
 
 
@@ -58,7 +58,7 @@ Aquí ya existe una clara separación entre el Controlador y el Vista, ya que ah
 ![MVC_Tipo2](https://user-images.githubusercontent.com/72040398/94766938-56f4be80-0371-11eb-968e-2fa858618814.png)
 
 ###
-#### ¿Qué ventajas ofrece el modelo MVC?
+# ¿Qué ventajas ofrece el modelo MVC?
 
 - **Proceso de desarrollo más rápido:** MVC apoya el desarrollo rápido y paralelo, ya que al utilizar el patrón, se desarrolla de una forma más eficiente debido a que una persona puede trabajar en la vista, mientras que otra puede trabajar en el controlador y así crear la lógica.
 
@@ -66,7 +66,7 @@ Aquí ya existe una clara separación entre el Controlador y el Vista, ya que ah
 
 - **Soporte para la técnica asíncrona:** MVC es compatible con la técnica asíncrona, la cual ayuda al programador a desarrollar, y permite que la aplicación pueda tener un rendimiento superior al cargar su contenido.
 
-#### ¿Qué otros modelos/frameworks existen de patrones de diseño?
+# ¿Qué otros modelos/frameworks existen de patrones de diseño?
 
 
 
@@ -114,7 +114,7 @@ gráficas, inicialmente para el sistema X Window)
 <?php
 
     function conexion(){
-        $conexion = new mysqli('127.0.0.1','root',' ','proyecto');
+        $conexion = new mysqli('127.0.0.1','root',' ','personas');
 
             if($conexion->connect_errno){
                 echo 'Error en la conexion a nuestro Schema :' .$conexion->connect_error;
