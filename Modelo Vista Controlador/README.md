@@ -81,7 +81,8 @@ gráficas, inicialmente para el sistema X Window)
 
 # Resultados
 
-### (Ejemplo) Modelo MVC en el lenguaje de preferencia 
+### Ejemplo:
+## Modelo MVC en el lenguaje de preferencia 
 
 ###
 
