@@ -83,7 +83,9 @@ gráficas, inicialmente para el sistema X Window)
 #### Organización de los archivos
 
 :page_facing_up: - index.php
-####
+#####
+:open_file_folder:  - app/conexion.php
+#####
 :open_file_folder:  - modelo/personas_model.php
 #####
 :open_file_folder:  - vista/personas_view.html
@@ -102,7 +104,7 @@ gráficas, inicialmente para el sistema X Window)
 ?>
 ```
 
-####  conexion.php :open_file_folder:
+####  app/conexion.php :open_file_folder:
 ```
 <?php
 
