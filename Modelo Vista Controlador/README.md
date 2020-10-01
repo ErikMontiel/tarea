@@ -66,6 +66,27 @@ Aquí ya existe una clara separación entre el Controlador y el Vista, ya que ah
 
 - **Soporte para la técnica asíncrona:** MVC es compatible con la técnica asíncrona, la cual ayuda al programador a desarrollar, y permite que la aplicación pueda tener un rendimiento superior al cargar su contenido.
 
+
+###
+
+
+
+
+#### Frameworks
+
+- Es un término utilizado en la computación en general, para referirse a un conjunto de bibliotecas utilizadas para implementar la estructura estándar de una aplicación. 
+
+#### ¿Qué frameworks utiliza el modelo MVC? 
+
+- [Ruby on Rails](https://rubyonrails.org/).
+- [Rhodes](http://docs.rhomobile.com/en/2.2.0/rhodes/introduction).
+- [JavaServerFaces](http://www.javaserverfaces.org/).
+- [Sails.JS](https://sailsjs.com/).
+- [FuelPHP](https://fuelphp.com/).
+- [Symfony](https://symfony.es/).
+- [Django](https://www.djangoproject.com/).
+- [Interface Java Objects](https://docs.oracle.com/javase/8/docs/technotes/guides/collections/overview.html).
+
 # ¿Qué otros modelos/frameworks existen de patrones de diseño?
 
 
@@ -182,25 +203,7 @@ gráficas, inicialmente para el sistema X Window)
 
 
 
-###
 
-
-
-
-#### Frameworks
-
-- Es un término utilizado en la computación en general, para referirse a un conjunto de bibliotecas utilizadas para implementar la estructura estándar de una aplicación. 
-
-#### ¿Qué frameworks utiliza el modelo MVC? 
-
-- [Ruby on Rails](https://rubyonrails.org/).
-- [Rhodes](http://docs.rhomobile.com/en/2.2.0/rhodes/introduction).
-- [JavaServerFaces](http://www.javaserverfaces.org/).
-- [Sails.JS](https://sailsjs.com/).
-- [FuelPHP](https://fuelphp.com/).
-- [Symfony](https://symfony.es/).
-- [Django](https://www.djangoproject.com/).
-- [Interface Java Objects](https://docs.oracle.com/javase/8/docs/technotes/guides/collections/overview.html).
 
 # Conclusiones
 
