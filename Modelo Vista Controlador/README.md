@@ -47,13 +47,15 @@ ciclo nuevamente.
 ##### MVC tipo 1:
 Las paginas JSP están en el centro de aplicación y contiene tanto la lógica de control como la de presentación. Este tipo de arquitectura funciona de la siguiente manera: el cliente hace una petición o una página JSP, se construye la lógica de la página, generalmente en objetos java y se transforma el modelo para ser desplegado una vez más.
 
-
-
+###
+![MVC_Tipo1](https://user-images.githubusercontent.com/72040398/94766892-52c8a100-0371-11eb-80f1-dcbd4acc6407.png)
+###
 
 ##### MVC tipo 2:
 Aquí ya existe una clara separación entre el Controlador y el Vista, ya que ahora es directamente el Controlador quien recibe la petición, prepara el modelo y lo transforma para que sea desplegado en la vista. Esta arquitectura se utiliza para aplicaciones complejas.
+###
 
-
+![MVC_Tipo2](https://user-images.githubusercontent.com/72040398/94766938-56f4be80-0371-11eb-968e-2fa858618814.png)
 
 ###
 #### ¿Qué ventajas ofrece el modelo MVC?
