@@ -1,5 +1,3 @@
-
-
 # Modelo Vista Controlador (MVC)
 
 ## Introducción
@@ -80,18 +78,106 @@ gráficas, inicialmente para el sistema X Window)
 
 ### (Ejemplo) Modelo MVC en el lenguaje de preferencia 
 
-##
+###
 
 #### Organización de los archivos
 
-
+:page_facing_up: - index.php
+####
 :open_file_folder:  - modelo/personas_model.php
 #####
 :open_file_folder:  - vista/personas_view.html
 #####
 :open_file_folder:  - controlador/personas_controller.php
+####
 
 ##
+
+#### index.php :page_facing_up:
+
+```
+<?php
+    require_once("db/db.php");
+    require_once("controllers/personas_controller.php");
+?>
+```
+
+####  db.php :open_file_folder:
+```
+<?php
+
+    function conexion(){
+        $conexion = new mysqli('127.0.0.1','root',' ','proyecto');
+
+            if($conexion->connect_errno){
+                echo 'Error en la conexion a nuestro Schema :' .$conexion->connect_error;
+            }
+             $conexion->set_charset('utf8');
+             return $conexion;
+    }
+?>
+```
+
+#### model/personas_model.php :open_file_folder: 
+```
+<?php
+    class personas_model{
+    private $db;
+    private $personas;
+ 
+    public function __construct(){
+        $this->db=Conectar::conexion();
+        $this->personas=array();
+    }
+    public function get_personas(){
+        $consulta=$this->db->query("select * from personas;");
+        while($filas=$consulta->fetch_assoc()){
+            $this->personas[]=$filas;
+        }
+        return $this->personas;
+    }
+}
+?>
+```
+
+####  controller/personas_controller.php :open_file_folder: 
+
+```
+<?php
+
+    require_once("models/personas_model.php");
+    $per=new personas_model();
+    $datos=$per->get_personas();
+ 
+    require_once("views/personas_view.html");
+?>
+
+```
+#### view/personas_view.html :open_file_folder: 
+
+```
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Personas</title>
+    </head>
+    <body>
+        <?php
+            foreach ($datos as $dato) {
+                echo $dato["nombre"]."<br/>";
+            }
+        ?>
+    </body>
+</html>
+```
+
+
+
+###
+
+
+
 
 #### Frameworks
 
@@ -109,6 +195,5 @@ gráficas, inicialmente para el sistema X Window)
 - [Interface Java Objects](https://docs.oracle.com/javase/8/docs/technotes/guides/collections/overview.html).
 
 # Conclusiones
-
 
 
