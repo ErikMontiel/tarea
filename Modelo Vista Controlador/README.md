@@ -102,7 +102,7 @@ gráficas, inicialmente para el sistema X Window)
 ?>
 ```
 
-####  db.php :open_file_folder:
+####  conexion.php :open_file_folder:
 ```
 <?php
 
