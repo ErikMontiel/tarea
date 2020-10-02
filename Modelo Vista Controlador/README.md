@@ -1,3 +1,4 @@
+:arrow_left: [Regresar](https://github.com/ErikMontiel/tarea)
 # Modelo Vista Controlador (MVC)  
 
 ## Introducción
@@ -223,5 +224,5 @@ convirtiendo una aplicación en un módulo fácil de mantener y mejora la rapide
 desarrollo. La separación de capas en modelos, vistas y controladores hace que las
 aplicaciones sean fáciles de entender. 
 
-<<< [Regresar](https://github.com/ErikMontiel/tarea) >>>
-<<< [Subir](https://github.com/ErikMontiel/tarea/edit/master/Modelo%20Vista%20Controlador/README.md) >>>
+:arrow_left: [Regresar](https://github.com/ErikMontiel/tarea)
+
