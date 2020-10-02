@@ -200,11 +200,16 @@ gráficas, inicialmente para el sistema X Window)
 
 
 
-### Ejemplo con: 
+### Los frameworks típicamente se basan en patrones y tácticas
+###
 #### Java Swing
 
 
-Los frameworks típicamente se basan en patrones y tácticas. Un ejemplo de ello es el framework Swing para creación de interfaces de usuario en Java, que aplica patrones como Modelo-Vista-Controlador (MVC), Observador y Composite; e incorpora tácticas de modificabilidad y usabilidad tales como la generalización de módulos y la separación de elementos de interfaz de usuario.
+Los frameworks típicamente se basan en patrones y tácticas. 
+###
+
+### Un ejemplo de ello es el framework Swing 
+Para creación de interfaces de usuario en Java, que aplica patrones como Modelo-Vista-Controlador (MVC), Observador y Composite; e incorpora tácticas de modificabilidad y usabilidad tales como la generalización de módulos y la separación de elementos de interfaz de usuario.
 ##
 
 
