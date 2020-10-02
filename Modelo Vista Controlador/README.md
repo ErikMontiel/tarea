@@ -10,16 +10,16 @@ Por lo que se vio a la necesidad de aplicar una arquitectura útil como es el Mo
 #
 
 
-### MVC y  su relación con los patrones de diseño de software
+## MVC y su relación con los patrones de diseño de software
 
 
-##### Modelo: 
+#### Modelo: 
 - Representa los datos que el usuario está esperando ver, pero no contiene ninguna lógica que describa cómo presentar los datos a un usuario.
 
-##### Vista: 
+#### Vista: 
 - Se encarga de transformar el modelo para que sea visualizada por el usuario, ya sea un archivo de texto normal o en una página Web que el navegador pueda desplegar. El propósito de la Vista es convertir los datos para que el usuario le sean significativos y los pueda interpretar fácilmente.
 
-##### Controlador:
+#### Controlador:
 - Es la parte lógica que es responsable de procesamiento y comportamiento de acuerdo a las peticiones (request) del usuario construyendo un modelo apropiado, y pasándolo a la vista para su correcta visualización.
 
 
@@ -27,7 +27,7 @@ Por lo que se vio a la necesidad de aplicar una arquitectura útil como es el Mo
 
 El patrón Modelo, Vista y Controlador (mvc) es el más extendido para el desarrollo de aplicaciones donde se deben manejar interfaces de usuarios, éste se centra en la separación de los datos o modelo, y la vista, mientras que el controlador es el encargado de relacionar a estos dos y su principal característica es aislar la vista del modelo.
 
-#### Se pueden encontrar muchas implementaciones de MVC, pero generalmente el flujo de datos se describe de la siguiente forma
+## Se pueden encontrar muchas implementaciones de MVC, pero generalmente el flujo de datos se describe de la siguiente forma
 
 1. El usuario interactúa con la interfaz de usuario de alguna forma (por ejemplo, el usuario pulsa un botón, enlace, etc.).
 #####
@@ -44,21 +44,21 @@ ciclo nuevamente.
 ## Existen dos tipos de patrón MVC
 
 
-##### MVC tipo 1:
+#### MVC tipo 1:
 Las paginas JSP están en el centro de aplicación y contiene tanto la lógica de control como la de presentación. Este tipo de arquitectura funciona de la siguiente manera: el cliente hace una petición o una página JSP, se construye la lógica de la página, generalmente en objetos java y se transforma el modelo para ser desplegado una vez más.
 
 ###
 ![MVC_Tipo1](https://user-images.githubusercontent.com/72040398/94766892-52c8a100-0371-11eb-80f1-dcbd4acc6407.png)
 ###
 
-##### MVC tipo 2:
+#### MVC tipo 2:
 Aquí ya existe una clara separación entre el Controlador y el Vista, ya que ahora es directamente el Controlador quien recibe la petición, prepara el modelo y lo transforma para que sea desplegado en la vista. Esta arquitectura se utiliza para aplicaciones complejas.
 ###
 
 ![MVC_Tipo2](https://user-images.githubusercontent.com/72040398/94766938-56f4be80-0371-11eb-968e-2fa858618814.png)
 
 ###
-# ¿Qué ventajas ofrece el modelo MVC?
+## ¿Qué ventajas ofrece el modelo MVC?
 
 - **Proceso de desarrollo más rápido:** MVC apoya el desarrollo rápido y paralelo, ya que al utilizar el patrón, se desarrolla de una forma más eficiente debido a que una persona puede trabajar en la vista, mientras que otra puede trabajar en el controlador y así crear la lógica.
 
@@ -66,17 +66,16 @@ Aquí ya existe una clara separación entre el Controlador y el Vista, ya que ah
 
 - **Soporte para la técnica asíncrona:** MVC es compatible con la técnica asíncrona, la cual ayuda al programador a desarrollar, y permite que la aplicación pueda tener un rendimiento superior al cargar su contenido.
 
-
 ###
 
 
+# Resultados
 
-
-#### Frameworks
+## Frameworks
 
 - Es un término utilizado en la computación en general, para referirse a un conjunto de bibliotecas utilizadas para implementar la estructura estándar de una aplicación. 
 
-#### ¿Qué frameworks utiliza el modelo MVC? 
+## ¿Qué frameworks utiliza el modelo MVC? 
 
 - [Ruby on Rails](https://rubyonrails.org/).
 - [Rhodes](http://docs.rhomobile.com/en/2.2.0/rhodes/introduction).
@@ -87,24 +86,10 @@ Aquí ya existe una clara separación entre el Controlador y el Vista, ya que ah
 - [Django](https://www.djangoproject.com/).
 - [Interface Java Objects](https://docs.oracle.com/javase/8/docs/technotes/guides/collections/overview.html).
 
-# ¿Qué otros modelos/frameworks existen de patrones de diseño?
 
 
-
-- [Java Swing](https://www.oracle.com/technical-resources/articles/javase/swingappfr.html), Java Enterprise Edition
-- [XForms](https://www.w3.org/community/xformsusers/wiki/XForms_2.0) (formato XML estándar para la especificación de un modelo de
-proceso de datos XML e interfaces de usuario como formularios web).
-- [GTK+](https://www.gtk.org/)(escrito en C, toolkit creado por Gnome para construir aplicaciones
-gráficas, inicialmente para el sistema X Window)
-- [Google Web Toolkit](http://www.gwtproject.org/), [Apache Struts](https://struts.apache.org/).
-
-
-
-# Resultados
-
-### Ejemplo:
 ## Modelo MVC en el lenguaje de preferencia 
-
+### Ejemplo :
 ###
 
 #### Organización de los archivos
@@ -118,7 +103,7 @@ gráficas, inicialmente para el sistema X Window)
 :open_file_folder:  - vista/personas_view.html
 #####
 :open_file_folder:  - controlador/personas_controller.php
-####
+###
 
 ##
 
@@ -201,8 +186,29 @@ gráficas, inicialmente para el sistema X Window)
 </html>
 ```
 
+## ¿Qué otros modelos/frameworks existen de patrones de diseño?
 
 
+
+- [Java Swing](https://www.oracle.com/technical-resources/articles/javase/swingappfr.html), Java Enterprise Edition
+- [XForms](https://www.w3.org/community/xformsusers/wiki/XForms_2.0) (formato XML estándar para la especificación de un modelo de
+proceso de datos XML e interfaces de usuario como formularios web).
+- [GTK+](https://www.gtk.org/)(escrito en C, toolkit creado por Gnome para construir aplicaciones
+gráficas, inicialmente para el sistema X Window)
+- [Google Web Toolkit](http://www.gwtproject.org/), [Apache Struts](https://struts.apache.org/).
+
+
+
+
+### Ejemplo con: 
+#### Java Swing
+
+
+Los frameworks típicamente se basan en patrones y tácticas. Un ejemplo de ello es el framework Swing para creación de interfaces de usuario en Java, que aplica patrones como Modelo-Vista-Controlador (MVC), Observador y Composite; e incorpora tácticas de modificabilidad y usabilidad tales como la generalización de módulos y la separación de elementos de interfaz de usuario.
+##
+
+
+![javaswing](https://user-images.githubusercontent.com/72040398/94880489-af3ac780-0428-11eb-9e2c-24af753e9513.png)
 
 
 # Conclusiones
@@ -211,4 +217,3 @@ Este patrón para el diseño y desarrollo permite producir software de alta cali
 convirtiendo una aplicación en un módulo fácil de mantener y mejora la rapidez de su
 desarrollo. La separación de capas en modelos, vistas y controladores hace que las
 aplicaciones sean fáciles de entender. 
-
