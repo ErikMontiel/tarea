@@ -224,5 +224,5 @@ convirtiendo una aplicación en un módulo fácil de mantener y mejora la rapide
 desarrollo. La separación de capas en modelos, vistas y controladores hace que las
 aplicaciones sean fáciles de entender. 
 
-:arrow_left: [Regresar](https://github.com/ErikMontiel/tarea/blob/master/Modelo%20Vista%20Controlador/README.md)
+:arrow_left: [Subir](https://github.com/ErikMontiel/tarea/blob/master/Modelo%20Vista%20Controlador/README.md)
 
