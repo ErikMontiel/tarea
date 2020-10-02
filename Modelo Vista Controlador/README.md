@@ -222,3 +222,6 @@ Este patrón para el diseño y desarrollo permite producir software de alta cali
 convirtiendo una aplicación en un módulo fácil de mantener y mejora la rapidez de su
 desarrollo. La separación de capas en modelos, vistas y controladores hace que las
 aplicaciones sean fáciles de entender. 
+
+
+[Regresar](https://github.com/ErikMontiel/tarea)
