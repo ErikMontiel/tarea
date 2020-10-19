@@ -1,3 +1,4 @@
+:arrow_left: [Regresar](https://github.com/ErikMontiel/tarea/edit/master/Metodos_HTTPs/)
 # Metodos de Peticion  HTTPs
 
 ## Introducción
@@ -98,6 +99,6 @@ _|"100"; [Sección 10.1.1](https://tools.ietf.org/html/rfc2616#section-10.1.1) :
 | "505"; [Sección 10.5.6](https://tools.ietf.org/html/rfc2616#section-10.5.6) : Versión HTTP no compatible_
 
 
-##Conclusiones
+## Conclusiones
 
 ##### Estos metodos permiten al cliente y al servidor enviar información adicional junto a una petición o respuesta para asi identificar el tipo de mensaje. 
