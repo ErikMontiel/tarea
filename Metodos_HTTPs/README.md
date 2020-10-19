@@ -60,44 +60,44 @@ _Por ejemplo, si tienes muchos enlaces en tu sitio web, puedes enviar un HEAD re
 
 - "100"; [Sección 10.1.1](https://tools.ietf.org/html/rfc2616#section-10.1.1) : Continuar
 - "101"; [Sección 10.1.2](https://tools.ietf.org/html/rfc2616#section-10.1.2) : Protocolos de conmutación
-"200"; [Sección 10.2.1](https://tools.ietf.org/html/rfc2616#section-10.2.1): OK
-"201"; [Sección 10.2.2](https://tools.ietf.org/html/rfc2616#section-10.2.2) : Creado
-"202"; [Sección 10.2.3](https://tools.ietf.org/html/rfc2616#section-10.2.3) : Aceptado
-"203"; [Sección 10.2.4](https://tools.ietf.org/html/rfc2616#section-10.2.4) : Información no autorizada
-"204"; [Sección 10.2.5](https://tools.ietf.org/html/rfc2616#section-10.2.5) : Sin contenido
-"205"; [Sección 10.2.6](https://tools.ietf.org/html/rfc2616#section-10.2.6) : Restablecer contenido
-"206"; [Sección 10.2.7](https://tools.ietf.org/html/rfc2616#section-10.2.7) : Contenido parcial
-"300"; [Sección 10.3.1](https://tools.ietf.org/html/rfc2616#section-10.3.1) : Opciones múltiples
-"301"; [Sección 10.3.2](https://tools.ietf.org/html/rfc2616#section-10.3.2) : Movido permanentemente
-"302"; [Sección 10.3.3](https://tools.ietf.org/html/rfc2616#section-10.3.3) : Encontrado
-"303"; [Sección 10.3.4](https://tools.ietf.org/html/rfc2616#section-10.3.4) : Ver otros
-"304"; [Sección 10.3.5](https://tools.ietf.org/html/rfc2616#section-10.3.5) : No modificado
-"305"; [Sección 10.3.6](https://tools.ietf.org/html/rfc2616#section-10.3.6) : Usar proxy
-"307"; [Sección 10.3.8](https://tools.ietf.org/html/rfc2616#section-10.3.8) : Redireccionamiento temporal
-"400"; [Sección 10.4.1](https://tools.ietf.org/html/rfc2616#section-10.4.1) : Solicitud incorrecta
-"401"; [Sección 10.4.2](https://tools.ietf.org/html/rfc2616#section-10.4.2) : No autorizado
-"402"; [Sección 10.4.3](https://tools.ietf.org/html/rfc2616#section-10.4.3) : Pago requerido
-"403"; [Sección 10.4.4](https://tools.ietf.org/html/rfc2616#section-10.4.4) : Prohibido
-"404"; [Sección 10.4.5](https://tools.ietf.org/html/rfc2616#section-10.4.5) : No encontrado
-"405"; [Sección 10.4.6](https://tools.ietf.org/html/rfc2616#section-10.4.6) : Método no permitido
-"406"; [Sección 10.4.7](https://tools.ietf.org/html/rfc2616#section-10.4.7) : No aceptable
-"407"; [Sección 10.4.8](https://tools.ietf.org/html/rfc2616#section-10.4.8) : Se requiere autenticación de proxy
-"408"; [Sección 10.4.9](https://tools.ietf.org/html/rfc2616#section-10.4.9) : Solicitar tiempo de espera
-"409"; [Sección 10.4.10](https://tools.ietf.org/html/rfc2616#section-10.4.10) : Conflicto
-"410"; [Sección 10.4.11](https://tools.ietf.org/html/rfc2616#section-10.4.11) : Desaparecido
-"411"; [Sección 10.4.12](https://tools.ietf.org/html/rfc2616#section-10.4.12) : Longitud requerida
-"412"; [Sección 10.4.13](https://tools.ietf.org/html/rfc2616#section-10.4.13) : Precondición fallida
-"413"; [Sección 10.4.14](https://tools.ietf.org/html/rfc2616#section-10.4.14) : Entidad de solicitud demasiado grande
-"414"; [Sección 10.4.15](https://tools.ietf.org/html/rfc2616#section-10.4.15) : Request-URI demasiado grande
-"415"; [Sección 10.4.16](https://tools.ietf.org/html/rfc2616#section-10.4.16) : Tipo de papel no admitido
-"416"; [Sección 10.4.17](https://tools.ietf.org/html/rfc2616#section-10.4.17) : Rango solicitado no satisfactorio
-"417"; [Sección 10.4.18](https://tools.ietf.org/html/rfc2616#section-10.4.18) : Expectativa fallida
-"500"; [Sección 10.5.1](https://tools.ietf.org/html/rfc2616#section-10.5.1) : Error interno del servidor
-"501"; [Sección 10.5.2](https://tools.ietf.org/html/rfc2616#section-10.5.2) : No implementado
-"502"; [Sección 10.5.3](https://tools.ietf.org/html/rfc2616#section-10.5.3) : Puerta de enlace incorrecta
-"503"; [Sección 10.5.4](https://tools.ietf.org/html/rfc2616#section-10.5.4) : Servicio no disponible
-"504"; [Sección 10.5.5](https://tools.ietf.org/html/rfc2616#section-10.5.5) : Tiempo de espera de la puerta de enlace
-"505"; [Sección 10.5.6](https://tools.ietf.org/html/rfc2616#section-10.5.6) : Versión HTTP no compatible
+- "200"; [Sección 10.2.1](https://tools.ietf.org/html/rfc2616#section-10.2.1): OK
+- "201"; [Sección 10.2.2](https://tools.ietf.org/html/rfc2616#section-10.2.2) : Creado
+- "202"; [Sección 10.2.3](https://tools.ietf.org/html/rfc2616#section-10.2.3) : Aceptado
+- "203"; [Sección 10.2.4](https://tools.ietf.org/html/rfc2616#section-10.2.4) : Información no autorizada
+- "204"; [Sección 10.2.5](https://tools.ietf.org/html/rfc2616#section-10.2.5) : Sin contenido
+- "205"; [Sección 10.2.6](https://tools.ietf.org/html/rfc2616#section-10.2.6) : Restablecer contenido
+- "206"; [Sección 10.2.7](https://tools.ietf.org/html/rfc2616#section-10.2.7) : Contenido parcial
+- "300"; [Sección 10.3.1](https://tools.ietf.org/html/rfc2616#section-10.3.1) : Opciones múltiples
+- "301"; [Sección 10.3.2](https://tools.ietf.org/html/rfc2616#section-10.3.2) : Movido permanentemente
+- "302"; [Sección 10.3.3](https://tools.ietf.org/html/rfc2616#section-10.3.3) : Encontrado
+- "303"; [Sección 10.3.4](https://tools.ietf.org/html/rfc2616#section-10.3.4) : Ver otros
+- "304"; [Sección 10.3.5](https://tools.ietf.org/html/rfc2616#section-10.3.5) : No modificado
+- "305"; [Sección 10.3.6](https://tools.ietf.org/html/rfc2616#section-10.3.6) : Usar proxy
+- "307"; [Sección 10.3.8](https://tools.ietf.org/html/rfc2616#section-10.3.8) : Redireccionamiento temporal
+- "400"; [Sección 10.4.1](https://tools.ietf.org/html/rfc2616#section-10.4.1) : Solicitud incorrecta
+- "401"; [Sección 10.4.2](https://tools.ietf.org/html/rfc2616#section-10.4.2) : No autorizado
+- "402"; [Sección 10.4.3](https://tools.ietf.org/html/rfc2616#section-10.4.3) : Pago requerido
+- "403"; [Sección 10.4.4](https://tools.ietf.org/html/rfc2616#section-10.4.4) : Prohibido
+- "404"; [Sección 10.4.5](https://tools.ietf.org/html/rfc2616#section-10.4.5) : No encontrado
+- "405"; [Sección 10.4.6](https://tools.ietf.org/html/rfc2616#section-10.4.6) : Método no permitido
+- "406"; [Sección 10.4.7](https://tools.ietf.org/html/rfc2616#section-10.4.7) : No aceptable
+- "407"; [Sección 10.4.8](https://tools.ietf.org/html/rfc2616#section-10.4.8) : Se requiere autenticación de proxy
+- "408"; [Sección 10.4.9](https://tools.ietf.org/html/rfc2616#section-10.4.9) : Solicitar tiempo de espera
+- "409"; [Sección 10.4.10](https://tools.ietf.org/html/rfc2616#section-10.4.10) : Conflicto
+- "410"; [Sección 10.4.11](https://tools.ietf.org/html/rfc2616#section-10.4.11) : Desaparecido
+- "411"; [Sección 10.4.12](https://tools.ietf.org/html/rfc2616#section-10.4.12) : Longitud requerida
+- "412"; [Sección 10.4.13](https://tools.ietf.org/html/rfc2616#section-10.4.13) : Precondición fallida
+- "413"; [Sección 10.4.14](https://tools.ietf.org/html/rfc2616#section-10.4.14) : Entidad de solicitud demasiado grande
+- "414"; [Sección 10.4.15](https://tools.ietf.org/html/rfc2616#section-10.4.15) : Request-URI demasiado grande
+- "415"; [Sección 10.4.16](https://tools.ietf.org/html/rfc2616#section-10.4.16) : Tipo de papel no admitido
+- "416"; [Sección 10.4.17](https://tools.ietf.org/html/rfc2616#section-10.4.17) : Rango solicitado no satisfactorio
+- "417"; [Sección 10.4.18](https://tools.ietf.org/html/rfc2616#section-10.4.18) : Expectativa fallida
+- "500"; [Sección 10.5.1](https://tools.ietf.org/html/rfc2616#section-10.5.1) : Error interno del servidor
+- "501"; [Sección 10.5.2](https://tools.ietf.org/html/rfc2616#section-10.5.2) : No implementado
+- "502"; [Sección 10.5.3](https://tools.ietf.org/html/rfc2616#section-10.5.3) : Puerta de enlace incorrecta
+- "503"; [Sección 10.5.4](https://tools.ietf.org/html/rfc2616#section-10.5.4) : Servicio no disponible
+- "504"; [Sección 10.5.5](https://tools.ietf.org/html/rfc2616#section-10.5.5) : Tiempo de espera de la puerta de enlace
+- "505"; [Sección 10.5.6](https://tools.ietf.org/html/rfc2616#section-10.5.6) : Versión HTTP no compatible
 
 
 ## Conclusiones
