@@ -34,7 +34,7 @@ PUT ejemplo.com/usuario/peter HTTP/1.1
 
 ```
 ### PATCH
-El método HTTP PATCH aplica modificaciones parciales a un recurso. Las peticiones identicas sucesivas pueden tener efectos diferentes. Sin embargo,  es posible emitir peticiones PATCH de tal forma que sean idempotentes.
+##### El método HTTP PATCH aplica modificaciones parciales a un recurso. Las peticiones identicas sucesivas pueden tener efectos diferentes. Sin embargo,  es posible emitir peticiones PATCH de tal forma que sean idempotentes.
 ```
 PATCH /file.txt HTTP/1.1 
 Host: www.example.com
@@ -66,9 +66,9 @@ Connection: Keep-Alive
 ```
 
 ### OPTIONS
-### El método OPTIONS es utilizado para describir las opciones de comunicación para el recurso de destino.
+##### El método OPTIONS es utilizado para describir las opciones de comunicación para el recurso de destino.
 
-### Se necesita saber cuáles métodos de solicitud soporta el servidor de nuestra profesora, podemos utilizar curl y una solicitud OPTIONS:
+##### Se necesita saber cuáles métodos de solicitud soporta el servidor de nuestra profesora, podemos utilizar curl y una solicitud OPTIONS:
 ```
 curl -X OPTIONS https://yosoy.dev -i
 ```
