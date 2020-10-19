@@ -101,5 +101,4 @@ _Por ejemplo, si tienes muchos enlaces en tu sitio web, puedes enviar un HEAD re
 
 
 ## Conclusiones
-
 ##### Estos metodos permiten al cliente y al servidor enviar información adicional junto a una petición o respuesta para asi identificar el tipo de mensaje. 
