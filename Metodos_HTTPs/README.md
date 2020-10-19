@@ -31,8 +31,19 @@ _Los formularios también pueden usarse con el método GET, donde se añaden los
 ##### Utilizado normalmente para actualizar contenidos, pero también pueden crearlos. Tampoco muestra ninguna información en la URL. En caso de éxito devuelve 201 (created, en caso de que la acción haya creado un elemento) o 204 (no response, si el servidor no devuelve ningún contenido). A diferencia de POST es idempotente, si se crea o edita un resource con PUT y se hace el mismo request otra vez, el resource todavía está ahí y mantiene el mismo estado que en la primera llamada. Si con una llamada PUT se cambia aunque sea sólo un contador en el resource, la llamada ya no es idempotente, ya que se cambian contenidos.
 ```
 PUT ejemplo.com/usuario/peter HTTP/1.1
-```
 
+```
+### PATCH
+El método HTTP PATCH aplica modificaciones parciales a un recurso. Las peticiones identicas sucesivas pueden tener efectos diferentes. Sin embargo,  es posible emitir peticiones PATCH de tal forma que sean idempotentes.
+```
+PATCH /file.txt HTTP/1.1 
+Host: www.example.com
+Content-Type: application/example
+If-Match: "e0023aa4e"
+Content-Length: 100
+
+[description of changes]
+```
 
 ### DELETE
 ##### Simplemente elimina un resource identificado en la URI. Si se elimina correctamente devuelve 200 junto con un body response, o 204 sin body. DELETE, al igual que PUT y GET, también es idempotente.
@@ -43,7 +54,24 @@ DELETE ejemplo.com/usuario/peter HTTP/1.1
 ### HEAD
 ##### Es idéntido a GET, pero el servidor no devuelve el contenido en el HTTP response. Cuando se envía un HEAD request, significa que sólo se está interesado en el código de respuesta y los headers HTTP, no en el propio documento. Con este método el navegador puede comprobar si un documento se ha modificado, por razones de caching. Puede comprobar también directamente si el archivo existe.
 
-_Por ejemplo, si tienes muchos enlaces en tu sitio web, puedes enviar un HEAD request a todos los enlaces para comprobar los que estén rotos. Es bastante más rápido que hacerlo con GET._
+### El método HEAD es muy similar al GET (funcionalmente hablando), a excepción de que el servidor responde con líneas y headers, pero no con el body de la respuesta.
+
+```
+GET /index.html HTTP/1.1  
+User-Agent: Mozilla/4.0 (compatible; MSIE5.01; Windows NT)
+Host: www.yosoy.dev
+Accept-Language: es-mx
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+```
+
+### OPTIONS
+### El método OPTIONS es utilizado para describir las opciones de comunicación para el recurso de destino.
+
+### Se necesita saber cuáles métodos de solicitud soporta el servidor de nuestra profesora, podemos utilizar curl y una solicitud OPTIONS:
+```
+curl -X OPTIONS https://yosoy.dev -i
+```
 
 ### Mensajes de Peticones HTTPs
 
