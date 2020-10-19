@@ -1,4 +1,4 @@
-:arrow_left: [Regresar](https://github.com/ErikMontiel/tarea/edit/master/Metodos_HTTPs/)
+:arrow_left: [Regresar](https://github.com/ErikMontiel/tarea/blob/master/README.md)
 # Metodos de Peticion  HTTPs
 
 ## Introducción
@@ -50,14 +50,15 @@ _Por ejemplo, si tienes muchos enlaces en tu sitio web, puedes enviar un HEAD re
 ##### Los códigos de estado de respuesta HTTP indican si se ha completado satisfactoriamente una solicitud HTTP específica. Las respuestas se agrupan en cinco clases:
 ##
 
-**-Respuestas informativas (100–199)**
-**-Respuestas satisfactorias (200–299)**
-**-Redirecciones (300–399)**
-**-Errores de los clientes (400–499)**
-**-Errores de los servidores (500–599)**
+-Respuestas informativas (100–199)
+-Respuestas satisfactorias (200–299)
+-Redirecciones (300–399)
+-Errores de los clientes (400–499)
+-Errores de los servidores (500–599)
+
 ##
 
-_|"100"; [Sección 10.1.1](https://tools.ietf.org/html/rfc2616#section-10.1.1) : Continuar
+|"100"; [Sección 10.1.1](https://tools.ietf.org/html/rfc2616#section-10.1.1) : Continuar
 |"101"; [Sección 10.1.2](https://tools.ietf.org/html/rfc2616#section-10.1.2) : Protocolos de conmutación
 | "200"; [Sección 10.2.1](https://tools.ietf.org/html/rfc2616#section-10.2.1): OK
 | "201"; [Sección 10.2.2](https://tools.ietf.org/html/rfc2616#section-10.2.2) : Creado
@@ -96,7 +97,7 @@ _|"100"; [Sección 10.1.1](https://tools.ietf.org/html/rfc2616#section-10.1.1) :
 | "502"; [Sección 10.5.3](https://tools.ietf.org/html/rfc2616#section-10.5.3) : Puerta de enlace incorrecta
 | "503"; [Sección 10.5.4](https://tools.ietf.org/html/rfc2616#section-10.5.4) : Servicio no disponible
 | "504"; [Sección 10.5.5](https://tools.ietf.org/html/rfc2616#section-10.5.5) : Tiempo de espera de la puerta de enlace
-| "505"; [Sección 10.5.6](https://tools.ietf.org/html/rfc2616#section-10.5.6) : Versión HTTP no compatible_
+| "505"; [Sección 10.5.6](https://tools.ietf.org/html/rfc2616#section-10.5.6) : Versión HTTP no compatible
 
 
 ## Conclusiones
