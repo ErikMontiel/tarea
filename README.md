@@ -1,4 +1,4 @@
-#  Mean Stack For Frontend
+#  Mean Stack For Front end
 
 ### Lista de Tareas 
 
