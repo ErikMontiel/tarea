@@ -73,7 +73,7 @@ Connection: Keep-Alive
 curl -X OPTIONS https://yosoy.dev -i
 ```
 
-### Mensajes de Peticones HTTPs
+### Mensajes de Peticiones HTTPs
 
 ##### Los códigos de estado de respuesta HTTP indican si se ha completado satisfactoriamente una solicitud HTTP específica. Las respuestas se agrupan en cinco clases:
 ##
